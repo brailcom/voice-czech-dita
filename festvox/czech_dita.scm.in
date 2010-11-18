@@ -6,7 +6,7 @@
 
 (set! czech-insert-filling-vowels nil)
 
-(czech-proclaim-voice (dita (gender male)) ""
+(czech-proclaim-voice (dita (gender female)) ""
   (czech-unisyn-init 'czech_dita czech-dita-unisyn-index)
   (set! czech-int-simple-params* czech-dita-int-params))
 
